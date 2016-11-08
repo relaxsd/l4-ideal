@@ -1,0 +1,21 @@
+{
+    "name": "relaxsd/l4-ideal",
+    "description": "A Laravel 4 wrapper for iDeal v3.3.1 (SEPA)",
+    "authors": [
+        {
+            "name": "Martijn Kriek",
+            "email": "martijn.kriek@relax-software.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "bravesheep/ideal" : "master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Relaxsd\\Ideal\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
